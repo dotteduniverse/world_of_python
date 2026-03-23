@@ -21,16 +21,16 @@ That is why I created 30 days of python."""
 print(multiline_string)
 
 # String Concatenation
-first_name = 'Asabeneh'
-last_name = 'Yetayeh'
+first_name = 'Veera'
+last_name = 'Malla Reddy'
 space = ' '
 full_name = first_name + space + last_name
-print(full_name)  # Asabeneh Yetayeh
+print(full_name)  # Veera Malla Reddy
 # Checking length of a string using len() builtin function
-print(len(first_name))  # 8
-print(len(last_name))   # 7
-print(len(first_name) > len(last_name))  # True
-print(len(full_name))  # 15
+print(len(first_name))  # 5
+print(len(last_name))   # 11
+print(len(first_name) > len(last_name))  # False
+print(len(full_name))  # 17
 
 # Unpacking characters
 language = 'Python'
@@ -119,13 +119,13 @@ print(challenge.find('y'))  # 5
 print(challenge.find('th'))  # 0
 
 # format()	formats string into nicer output
-first_name = 'Asabeneh'
-last_name = 'Yetayeh'
-job = 'teacher'
-country = 'Finland'
+first_name = 'Veera'
+last_name = 'Malla Reddy'
+job = 'Developer'
+country = 'India'
 sentence = 'I am {} {}. I am a {}. I live in {}.'.format(
     first_name, last_name, job, country)
-print(sentence)  # I am Asabeneh Yetayeh. I am a teacher. I live in Finland.
+print(sentence)  # I am Veera Malla Reddy. I am a Developer. I live in India.
 
 radius = 10
 pi = 3.14

@@ -1,22 +1,3 @@
-<div align="center">
-  <h1> 30 Days Of Python: Day 2 - Variables, Builtin Functions</h1>
-  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
-  <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
-  </a>
-  <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
-  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
-  </a>
-
-<sub>Author:
-<a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
-<small> Second Edition: July, 2021</small>
-</sub>
-
-</div>
-
-[<< Day 1](../readme.md) | [Day 3 >>](../03_Day_Operators/03_operators.md)
-
-![30DaysOfPython](../images/30DaysOfPython_banner3@2x.png)
 
 - [📘 Day 2](#-day-2)
   - [Built in functions](#built-in-functions)
@@ -103,7 +84,7 @@ _Example:_
 # Variables in Python
 first_name = 'Asabeneh'
 last_name = 'Yetayeh'
-country = 'Finland'
+country = 'India'
 city = 'Helsinki'
 age = 250
 is_married = True
@@ -111,7 +92,7 @@ skills = ['HTML', 'CSS', 'JS', 'React', 'Python']
 person_info = {
    'firstname':'Asabeneh',
    'lastname':'Yetayeh',
-   'country':'Finland',
+   'country':'India',
    'city':'Helsinki'
    }
 ```
@@ -188,7 +169,7 @@ There are several data types in Python. To identify the data type we use the _ty
 
 first_name = 'Asabeneh'     # str
 last_name = 'Yetayeh'       # str
-country = 'Finland'         # str
+country = 'India'         # str
 city= 'Helsinki'            # str
 age = 250                   # int, it is not my real age, don't worry about it
 

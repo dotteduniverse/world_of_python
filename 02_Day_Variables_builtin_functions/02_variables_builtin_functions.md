@@ -82,18 +82,18 @@ _Example:_
 
 ```py
 # Variables in Python
-first_name = 'Asabeneh'
-last_name = 'Yetayeh'
+first_name = 'Veera'
+last_name = 'Malla Reddy'
 country = 'India'
-city = 'Helsinki'
+city = 'Bengaluru'
 age = 250
 is_married = True
 skills = ['HTML', 'CSS', 'JS', 'React', 'Python']
 person_info = {
-   'firstname':'Asabeneh',
-   'lastname':'Yetayeh',
+   'firstname':'Veera',
+   'lastname':'Malla Reddy',
    'country':'India',
-   'city':'Helsinki'
+   'city':'Bengaluru'
    }
 ```
 
@@ -133,7 +133,7 @@ Multiple variables can also be declared in one line:
 **Example:**
 
 ```py
-first_name, last_name, country, age, is_married = 'Asabeneh', 'Yetayeh', 'Helsink', 250, True
+first_name, last_name, country, age, is_married = 'Veera', 'Malla Reddy', 'Helsink', 250, True
 
 print(first_name, last_name, country, age, is_married)
 print('First name:', first_name)
@@ -167,21 +167,21 @@ There are several data types in Python. To identify the data type we use the _ty
 # Different python data types
 # Let's declare variables with various data types
 
-first_name = 'Asabeneh'     # str
-last_name = 'Yetayeh'       # str
+first_name = 'Veera'     # str
+last_name = 'Malla Reddy'       # str
 country = 'India'         # str
-city= 'Helsinki'            # str
+city= 'Bengaluru'            # str
 age = 250                   # int, it is not my real age, don't worry about it
 
 # Printing out types
-print(type('Asabeneh'))          # str
+print(type('Veera'))          # str
 print(type(first_name))          # str
 print(type(10))                  # int
 print(type(3.14))                # float
 print(type(1 + 1j))              # complex
 print(type(True))                # bool
 print(type([1, 2, 3, 4]))        # list
-print(type({'name':'Asabeneh'})) # dict
+print(type({'name':'Veera'})) # dict
 print(type((1,2)))               # tuple
 print(type(zip([1,2],[3,4])))    # zip
 ```
@@ -218,8 +218,8 @@ num_int = int(num_float)
 print('num_int', int(num_int))      # 10
 
 # str to list
-first_name = 'Asabeneh'
-print(first_name)               # 'Asabeneh'
+first_name = 'Veera'
+print(first_name)               # 'Veera'
 first_name_to_list = list(first_name)
 print(first_name_to_list)            # ['A', 's', 'a', 'b', 'e', 'n', 'e', 'h']
 ```
